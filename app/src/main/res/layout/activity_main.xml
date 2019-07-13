@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.administrator.cardiogramviedemo.EcgBackgroundView
+        android:id="@+id/xiaolajiao_base_ecgback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f6eee3"
+        app:largeGridColor="#ddc095"
+        app:smallGridColor="#efe0cc" />
+
+    <com.example.administrator.cardiogramviedemo.EcgWaveView
+        android:id="@+id/xiaolajiao_base_ecgwave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:scrollable="false"
+        app:waveColor="#D1AA71"
+        app:waveStrokeWidth="2dp" />
+
+
+</FrameLayout>

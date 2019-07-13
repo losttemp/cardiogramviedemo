@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EcgWaveView">
+        <attr name="waveColor" format="color" />
+        <attr name="waveStrokeWidth" format="dimension" />
+        <attr name="scrollable" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="EcgBackgroundView">
+        <attr name="largeGridColor" format="color" />
+        <attr name="smallGridColor" format="color" />
+    </declare-styleable>
+    <array name="ecg_pager_speed">
+        <item>25mm/s</item>
+        <item>50mm/s</item>
+    </array>
+    <array name="ecg_calibration">
+        <item>5mm/mV</item>
+        <item>10mm/mV</item>
+        <item>20mm/mV</item>
+    </array>
+</resources>
